@@ -10,6 +10,7 @@ const ll INF = 1e18;
 #define rep(i,n) for(ll i=0;i<n;i++)
 #define repi(i,a,b) for(ll i=a;i<b;i++)
 #define rrep(i,n) for(ll i=n-1;i>=0;i--)
+#define rrepi(i, a, b) for(ll i=a;i>=b;i--)
 #define inar(a, n) vector<ll> a(n); for (auto &x : a) cin >> x;
 #define in2d(a, n, m) vector<vector<ll>> a(n, vector<ll>(m)); for(int i=0;i<n;i++) for(int j=0;j<m;j++) cin >> a[i][j];
 #define fastio ios::sync_with_stdio(false); cin.tie(nullptr);
